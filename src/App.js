@@ -10,6 +10,7 @@ function App() {
     const [posts, setPosts] = useState([])
 
     function addPost(title) {
+        console.log('addPost() title {} ', title);
         const newPost = {id, title};
         setPosts([newPost, ...posts]);
         id = +1;
