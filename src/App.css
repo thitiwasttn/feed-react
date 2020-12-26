@@ -37,3 +37,18 @@ body {
     background-color: white;
     border: none;
 }
+
+.Post__image {
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.Post {
+    padding: 15px;
+    border: 1px solid hsl(216, 8%, 88%);
+    border-radius: 4px;
+    width: 576px;
+    margin: 20px auto;
+    background-color: #ffff;
+}
